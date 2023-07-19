@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/choose.css);
+@import url(styles/articles.css);
+@import url(styles/footer.css);
+
+:root {
+    --dark-blue: hsl(233, 26%, 24%);
+    --gradient: linear-gradient(0.25turn,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    --lime-green: hsl(136, 65%, 51%);   
+    --bright-cyan: hsl(192, 70%, 51%);
+    --grayish-blue: hsl(233, 8%, 62%);
+    --light-grayish-blue: hsl(220, 16%, 96%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    width: 100vw; 
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'public sans';
+    text-decoration: none;
+}
+

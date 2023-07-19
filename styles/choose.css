@@ -1,0 +1,39 @@
+.choose {
+    margin: 0 14em;
+}
+
+.choose-title{
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--dark-blue);
+    margin-bottom: 1em;
+}
+
+.choose-text {
+    color: var(--grayish-blue);
+    font-size: 22px;
+}
+
+.choose-text2 {
+    color: var(--grayish-blue);
+    font-size: 22px;
+    margin-bottom: 5em;
+}
+
+.choose-options {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.choose-options-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 1em 0;
+    color: var(--dark-blue);
+}
+
+.choose-options-text {
+    color: var(--grayish-blue);
+    width: 80%;
+}

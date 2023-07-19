@@ -1,0 +1,33 @@
+.banner {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-x: 800px;
+    background-position-y: -250px;
+    position: relative;
+    height: 110vh;
+}
+
+.banner-container {
+    margin: 15em 12em;
+    width: 30%;
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: 400;
+    color: var(--dark-blue);
+}
+
+.banner-text {
+    font-size: 22px;
+    color: var(--grayish-blue);
+    margin: 2em 0;
+}
+
+.banner-images-s {
+    width: 120%;
+    transform: translate(0px, -40px);
+}

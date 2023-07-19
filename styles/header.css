@@ -1,0 +1,25 @@
+.header {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    z-index: 2;
+}
+
+.navigation-itens {
+    color: var(--grayish-blue);
+    margin-right: 1.5em;
+}
+
+.navigation-btn {
+    padding: 1em 1.5em;
+    border: none;
+    border-radius: 2.4em;
+    background: var(--gradient);
+    font-size: 15px;
+    cursor: pointer;
+    color: var(--white);
+}
