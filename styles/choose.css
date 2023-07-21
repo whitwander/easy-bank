@@ -37,3 +37,55 @@
     color: var(--grayish-blue);
     width: 80%;
 }
+
+@media screen and (max-width: 1440px) {
+    .choose-title {
+        font-size: 35px;
+    }
+    
+    .choose-options-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .choose {
+        margin: 0 10em;
+    }
+
+    .choose-title {
+        font-size: 28px;
+    }
+
+    .choose-text,
+    .choose-text2,
+    .choose-options-text {
+        font-size: 13px;
+    }
+
+    .choose-options-title {
+        font-size: 19px;
+    }
+
+    .choose-options {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .choose {
+        margin: 0 4em;
+    }
+
+    .choose-title {
+        font-size: 24px;
+    }
+
+    .choose-options-text,
+    .choose-text,
+    .choose-text2 {
+        font-size: 10px;
+    }
+
+
+}

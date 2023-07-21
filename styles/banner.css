@@ -1,18 +1,17 @@
 .banner {
     display: flex;
     justify-content: space-around;
-    background-image: url(../images/bg-intro-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-position-x: 800px;
-    background-position-y: -250px;
+    height: 100vh;
     position: relative;
-    height: 110vh;
 }
 
 .banner-container {
     margin: 15em 12em;
-    width: 30%;
+    width: 40%;
+}
+
+.banner-images-bd {
+    width: 90%;
 }
 
 .banner-title {
@@ -28,6 +27,59 @@
 }
 
 .banner-images-s {
-    width: 120%;
-    transform: translate(0px, -40px);
+    width: 40%;
+    position: absolute;
+    right: -4%;
+}
+
+@media screen and (max-width: 1440px) {
+    .banner-title {
+        font-size: 35px;
+    }
+
+    .banner-text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner {
+        height: 80vh;
+    }
+
+    .banner-container {
+        margin: 6em 10em;
+        width: 60%;
+    }
+
+    .banner-title {
+        font-size: 28px;
+    }
+
+    .banner-text {
+        font-size: 14px;
+    }
+
+    .banner-images-bd {
+        width: 100%;
+    }
+
+    .banner-images-s {
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        height: auto;
+    }
+    
+    .banner-title {
+        font-size: 26px;
+    }
+    
+    .banner-container {
+        margin: 6em 4em;
+        width: 80%;
+    }
 }

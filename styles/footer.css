@@ -59,3 +59,25 @@
     margin: 0 0.4em;
     font-size: 19px;
 }
+
+@media screen and (max-width: 1024px) {
+    .links-footer,
+    .attribution a,
+    .attribution,
+    .copy {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 1em;
+    }
+    
+    .links-footer,
+    .attribution a,
+    .attribution,
+    .copy {
+        font-size: 10px;
+    }
+}
