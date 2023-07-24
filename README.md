@@ -2,4 +2,4 @@
 
 ## Desafio Front-end mentor
 
-### Deploy:
+### Deploy: https://easy-bank-self.vercel.app/
