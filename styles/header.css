@@ -24,6 +24,10 @@
     color: var(--white);
 }
 
+.menu-bar {
+    display: none;
+}
+
 @media screen and (max-width: 1024px) {
     .navigation-itens {
         font-size: 16px;
@@ -31,5 +35,15 @@
 
     .navigation-btn{
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .navigation-itens {
+        display: none;
+    }
+    
+    .menu-bar {
+        display: block;
     }
 }

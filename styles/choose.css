@@ -86,6 +86,40 @@
     .choose-text2 {
         font-size: 10px;
     }
+}
 
+@media screen and (max-width: 428px) {
+    .choose {
+        margin: 2em;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .choose-title {
+        font-size: 35px;
+    }
 
+    .choose-text,
+    .choose-text2 {
+        font-size: 16px;
+    }
+
+    .choose-options {
+        flex-direction: column;
+        margin: 1em;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .choose-options-text,
+    .choose-text,
+    .choose-text2 {
+        font-size: 16px;
+        width: auto;
+}
 }

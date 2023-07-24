@@ -32,6 +32,10 @@
     right: -4%;
 }
 
+.mobile {
+    display: none;
+}
+
 @media screen and (max-width: 1440px) {
     .banner-title {
         font-size: 35px;
@@ -83,3 +87,42 @@
         width: 80%;
     }
 }
+
+@media screen and (max-width: 428px) {
+    .mobile {
+        display: block; 
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-images-s {
+        width: 100%;
+        right: auto;
+        top: -10%;
+    }
+
+    .banner-container {
+        margin: 2em;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .banner-title {
+        font-size: 40px;
+    }
+
+    .banner-text {
+        font-size: 16px;
+    }
+}
+
+    

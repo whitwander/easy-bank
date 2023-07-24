@@ -33,7 +33,6 @@
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 0.8em;
-
 }
 
 .copy-box {
@@ -54,13 +53,14 @@
     justify-content: center;
 }
 
-.attribution a{
+.attribution a {
     color: var(--lime-green);
     margin: 0 0.4em;
     font-size: 19px;
 }
 
 @media screen and (max-width: 1024px) {
+
     .links-footer,
     .attribution a,
     .attribution,
@@ -73,11 +73,54 @@
     .footer {
         padding: 1em;
     }
-    
+
     .links-footer,
     .attribution a,
     .attribution,
     .copy {
         font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .footer {
+        width: auto;
+}
+
+    .about {
+        margin: 0;
+    }
+
+    .footer-part2 {
+        margin: 0;
+    }
+
+    .footer,
+    .footer-part1,
+    .footer-part2,
+    .about {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .links-footer {
+        font-size: 15px;
+        color: var(--white);
+    }
+
+    .copy-box {
+        margin: 1em 0;
+    }
+    
+    .copy,
+    .attribution,
+    .attribution a{
+        font-size: 14px;
+    }
+
+    .attribution {
+        padding: 0.5em;
     }
 }

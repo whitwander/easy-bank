@@ -109,3 +109,42 @@
         font-size: 10px;
     }
 }
+
+@media screen and (max-width: 428px) {
+    .articles {
+        margin: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .articles-list {
+        flex-direction: column;
+        margin: 1em;
+        margin-bottom: 5em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .articles-list-item {
+        width: auto;
+    }
+
+    .articles-list-image {
+        width: 99%;
+        height: auto;
+    }
+
+    .articles-list-title {
+        font-size: 26px;
+    }
+
+    .articles-list-text {
+        font-size: 16px;
+    }
+
+    .articles-list-link {
+        font-size: 14px;
+    }
+}
