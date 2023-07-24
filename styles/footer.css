@@ -117,10 +117,10 @@
     .copy,
     .attribution,
     .attribution a{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .attribution {
-        padding: 0.5em;
+        padding: 1em;
     }
 }

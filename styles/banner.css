@@ -48,11 +48,11 @@
 
 @media screen and (max-width: 1024px) {
     .banner {
-        height: 80vh;
+        height: 60vh;
     }
 
     .banner-container {
-        margin: 6em 10em;
+        margin: 6em 5em;
         width: 60%;
     }
 
@@ -99,6 +99,7 @@
 
     .banner {
         flex-direction: column-reverse;
+        position: relative;
     }
 
     .banner-images-s {

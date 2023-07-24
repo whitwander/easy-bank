@@ -28,12 +28,13 @@
     display: none;
 }
 
+
 @media screen and (max-width: 1024px) {
     .navigation-itens {
         font-size: 16px;
-    } 
+    }
 
-    .navigation-btn{
+    .navigation-btn {
         font-size: 12px;
     }
 }
@@ -42,8 +43,28 @@
     .navigation-itens {
         display: none;
     }
-    
+
     .menu-bar {
         display: block;
+    }
+
+    .mobile-menu {
+        display: block;
+        padding: 0.7em;
+        border-bottom: 1px solid rgb(196, 193, 193);
+    }
+
+    .mobile-menu-all {
+        position: absolute;
+        z-index: 20;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        top: 8%;
+        right: 13%;
+        padding-left: 1em;
+        background-color: white;
     }
 }
